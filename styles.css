@@ -1,1 +1,30 @@
 /* your code */
+
+.rounded-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+thead {
+	background-color: royalblue;
+    width: 100%;
+}
+th, td {
+	/* background-color: blue; */
+	padding: 8px;
+    text-align: left;
+}
+
+.tr0{
+	padding: 8px;
+    text-align: left;
+}
+.tr1{
+	padding: 8px;
+    text-align: left;
+	background-color:lightgray;
+}
